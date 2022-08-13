@@ -1,9 +1,8 @@
 ---
 layout: 'layouts/base.njk' 
+url: 'home'
 ---
 {# page is extending from layout from base.njk #}
+{% include 'sections/hero.html' %}
 
-    <h1 class="text-xl font-bold text-red-100 flex items-center justify-center">
-        yerhh
-
-    </h1>
+{% include 'sections/services.html' %}

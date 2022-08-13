@@ -1,17 +1,18 @@
 
 <header class="w-full bg-white flex justify-between items-center px-6 py-4">
-    <a href="#">
+    <a href="#" class="flex flex-row items-center">
     <img src="/assets/logo.png" alt="logo" class="h-12">
+    <h3 class="font-bold ml-2 text-2xl text-orange-400"> REELHEAD </h3>
     </a>
     
     <nav>
 
         <ul class="flex gap-10 font-semibold text-sm">
             <li>
-                <a href="/">Home</a>
+                <a href="/" class="{{'text-orange-500' if url === 'home'}}">Home</a>
             </li>
             <li>
-                <a href="/about">About</a>
+                <a href="/contact" class="{{'text-orange-500' if url === 'contact'}}">Contact</a>
             </li>
         </ul>
         
